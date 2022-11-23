@@ -49,3 +49,38 @@ for(let i=0;i<arr7.length;i++){
     console.log(arr7[i].age);
 }
 
+var myArray = [
+    {id: 1, name: 'John', age: 12},
+    {id: 2, name: 'Jane', age: 14},
+    {id: 3, name: 'Martin', age: 13},
+    {id: 4, name: 'Katie', age: 17},
+    {id: 5, name: 'Louis', age: 11}
+];
+
+for(let profile of myArray){
+    console.log(profile.age)
+}
+
+const arr8 = [8,9,5,4,6,10];
+for(let numbers of arr8){
+    console.log(numbers)
+}
+
+const arr9 = [54,85,65,47,96,52];
+i=arr9.length-1;
+do{
+    console.log(arr9[i]);
+    i--
+}
+while(i>=0);
+
+var arr10 = [
+    {id: 1, firstName: 'John', lastName: 'Smith', age: 12},
+    {id: 2, firstName: 'Jane', lastName: 'Brown', age: 14},
+    {id: 3, firstName: 'Martin', lastName: 'Johnson', age: 13},
+    {id: 4, firstName: 'Katie', lastName: 'Miller', age: 17},
+    {id: 5, firstName: 'Louis', lastName: 'Wilson', age: 11}
+];
+
+
+
