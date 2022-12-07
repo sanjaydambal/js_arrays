@@ -155,6 +155,13 @@ for(let details in student){
     console.log(`${details}=>${student[details]}`)
 }
 
+const person = {fname:"sandeep", lname:"kishan", age:42}; 
+let text = "";
+
+for (let x in person) {
+  text += person[x] + " ";
+}
+console.log(text);
 // updating values of properties using for in loop
 const emp = {
     sanjay:48000,
@@ -164,4 +171,16 @@ const emp = {
 for(let currency in emp){
     let curr = "₹" + emp[currency];
     console.log(`${currency}:${curr}`)
+}
+
+// for in with strings
+const subject = "design";
+for(let alphabets in subject){
+    console.log(subject[alphabets]);
+}
+
+// for in with arrays
+const arrays = ["I","Love","Coding"];
+for(let i in arrays){
+    console.log(arrays[i])
 }
